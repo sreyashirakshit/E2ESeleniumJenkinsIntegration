@@ -10,7 +10,7 @@ public class FacebookInitials {
 	@Test
 	public void loginPage()
 	{
-	  System.setProperty("webdriver.chrome.driver","C:\\TestProjects\\E2E_Selenium_Jenkins\\Drivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\Sreyashi Rakshit\\git\\local\\E2E_Selenium_Jenkins\\Drivers\\chromedriver.exe");
 	  
 	  WebDriver driver = new ChromeDriver();
 	  driver.manage().window().fullscreen();
